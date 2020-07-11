@@ -6,7 +6,8 @@ Draw primitive over numpy array image
 import cv2 as cv
 import numpy as np
 
-# 512 X 512 image size , # 3 channel
+# black background
+# 512 X 512 image size , # 3 channel BGR
 img = np.zeros([512,512,3], np.uint8 )
 
 # straight Line( image file, begin point1, end point2, color(BGR), line tickness)

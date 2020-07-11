@@ -1,7 +1,7 @@
 '''
 mouse event in opencv
- on LeftBclick show mouse coordinate whereever its clicked on image
- on RightBclick show clor value of image
+ on LeftBclick show mouse coordinate wherever its clicked on image
+ on RightBclick show color value of image
 '''
 
 import numpy as np
@@ -10,7 +10,6 @@ import cv2 as cv
 # loop into cv dir and get properties named with 'event' 
 events = [i for i in dir(cv) if 'EVENT' in i]
 print(events)
-
 
 # callback  function
 # param: mouse_event, mouse clicked position x y , 
@@ -22,7 +21,7 @@ def click_event(event, x, y, flags, param ):
         # form text
         text = str(x) + ' , ' + str(y)
         # put on display
-        cv.putText( img, text, (x,y), fontface, 0.4, (100,220,36), 1, cv.LINE_AA)
+        cv.putText( img, text, (x,y), fontface, 0.4, (255,220,255), 1, cv.LINE_AA)
         # display captured frame
         cv.imshow("image", img)
     
@@ -38,7 +37,7 @@ def click_event(event, x, y, flags, param ):
         # form text
         strbgr = str(blue) + ' , ' + str(green)+ ' , ' + str(red)
         # put on display
-        cv.putText( img, strbgr, (x,y), fontface, 0.4, (153, 65, 198), 1, cv.LINE_AA)
+        cv.putText( img, strbgr, (x,y), fontface, 0.4, (0, 65, 0), 1, cv.LINE_AA)
         # display captured frame
         cv.imshow("image", img)
 

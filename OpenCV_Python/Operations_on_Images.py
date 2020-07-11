@@ -16,7 +16,7 @@ print(img.size)
 print(img.dtype)
 
 # split : split image in 3 channel
-b,g,r = cv.split(img)
+b, g, r = cv.split(img)
 print(b)
 
 # highlight blue change
@@ -25,11 +25,10 @@ print(b)
 # r[:] = 0
 
 # merge : merge 3 channel into single image
-img = cv.merge(( b,g,r ))
+img = cv.merge( (b, g, r) )
 
-ball = img [ 280:340, 330:390 ]
+ball = img[ 280:340, 330:390 ]
 img[ 273:333, 100:160 ] = ball
-
 
 cv.imshow('image', img)
 

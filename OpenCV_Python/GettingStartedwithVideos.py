@@ -12,14 +12,14 @@ cap = cv.VideoCapture(0)
 # get codec
 fourcc = cv.VideoWriter_fourcc(*'XVID')
 
-# VideoWriter ( filename, codec, fps, frame size tuple
+# VideoWriter ( filename, codec, fps, frame size tuple )
 # instance to write video into file )
 videoOut = cv.VideoWriter("videoout.avi", fourcc, 20.0, (640,480))
 
 print(" Camera available : ", cap.isOpened())
 
 # properties of captured device can be taken using get()
-print(" Frame width : ",  cap.get( cv.CAP_PROP_FRAME_WIDTH ))
+print(" Frame width  : ", cap.get( cv.CAP_PROP_FRAME_WIDTH ))
 print(" Frame height : ", cap.get( cv.CAP_PROP_FRAME_HEIGHT ))
 
 while(True):
@@ -40,6 +40,7 @@ while(True):
             break
     else:
         break
+
 # release captured device
 cap.release()
 cv.destroyAllWindows()

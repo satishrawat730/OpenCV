@@ -15,7 +15,7 @@ print(" Camera available : ", cap.isOpened())
 framewidth  = cap.get( cv.CAP_PROP_FRAME_WIDTH )
 frameheight = cap.get( cv.CAP_PROP_FRAME_HEIGHT )
 
-print(" Frame width : ", framewidth)
+print(" Frame width  : ", framewidth)
 print(" Frame height : ", frameheight)
 
 while(True):
@@ -26,7 +26,7 @@ while(True):
         
         fontface = cv.FONT_HERSHEY_SIMPLEX
         # form text
-        text = ' W: ' + str(framewidth) + ' x ' + 'H: ' + str(frameheight) + ' Date: ' + str(dt.datetime.now())
+        text = ' W: ' + str(framewidth) + '  ' + 'H: ' + str(frameheight) + ' Date: ' + str(dt.datetime.now())
         # put on display
         frame = cv.putText( frame, text, (0,20), fontface, 0.4, (100,220,36), 1, cv.LINE_AA)
         # display captured frame

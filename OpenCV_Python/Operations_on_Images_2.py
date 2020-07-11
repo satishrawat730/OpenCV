@@ -6,21 +6,20 @@ use cv2.resize, cv2.add, cv2.addWeighted.
 import numpy as np
 import cv2 as cv
 
-img = cv.imread("./data/messi5.jpg")
-img2 =  cv.imread("./data/opencv-logo.png")
+img  = cv.imread("./data/messi5.jpg")
+img2 = cv.imread("./data/opencv-logo.png")
 
 # shape : return tuple of number of row, column, channel
 print(img.shape)
-
 print(img2.shape)
 
 # shape are different therefore will resize both image to equal size
 # resize(src img, size) resizes the image src down to or up to the specified size.
-img = cv.resize( img , (512,512))
-img2 = cv.resize( img2 , (512,512))
+img  = cv.resize( img , (512,512))
+img2 = cv.resize( img2, (512,512))
 
 # add(src1, src2, dst=None, mask=None, dtype=None)
-# add calculates: . - Sum of two arrays when both input arrays have 
+# add calculates:- Sum of two arrays when both input arrays have 
 # the same size and the same number of channels: 
 dest = cv.add(img, img2)
 cv.imshow('image', dest)

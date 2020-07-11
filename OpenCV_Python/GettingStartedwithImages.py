@@ -33,7 +33,7 @@ if keypress == 27: # escape key
     cv.destroyAllWindows()
 elif keypress == ord('s'):
     # imwrite ( filename to save, file to be saved) 
-    # write image to file
+    # write image to file and close window
     cv.imwrite("Lenacopy.png", img)
     cv.destroyAllWindows()
 
