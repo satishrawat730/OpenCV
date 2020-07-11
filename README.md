@@ -17,5 +17,6 @@ OpenCV lesson. code in python and c++
 14 Object_Detection_Tracking_HSV.py : show How to do Object Detection and Object Tracking Using HSV Color Space.  
 15 ImageThresholding.py        : Image Thresholding is used for image segmentation.
 16 AdaptiveThresholding.py     : Image AdaptiveThresholding is used for regionwise image segmentation.
-
+17 MatplotlibWithOpencv.py     : matplotlib with opencv
+18 MatplotlibWithOpencv_2.py   : use subplot to show many image in 1 window  
 
