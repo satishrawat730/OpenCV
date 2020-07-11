@@ -15,6 +15,7 @@ OpenCV lesson. code in python and c++
 12 Trackbar_bind_to_OpenCV_win.py   : Bitwise Operation in OpenCV  
 13 Trackbar_bind_to_OpenCV_win_2.py : Bitwise Operation in OpenCV  
 14 Object_Detection_Tracking_HSV.py : show How to do Object Detection and Object Tracking Using HSV Color Space.  
-15
+15 ImageThresholding.py        : Image Thresholding is used for image segmentation.
+16 AdaptiveThresholding.py     : Image AdaptiveThresholding is used for regionwise image segmentation.
 
 
