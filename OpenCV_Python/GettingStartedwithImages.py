@@ -21,7 +21,7 @@ print( img )
 print( img.shape)
 
 # imshow( title, image) : show image in window
-cv.imshow(" Image viewer", img)
+cv.imshow("Image viewer", img)
 
 # waitkey(milliseconds) : wait 
 # 0 for unlimited time
