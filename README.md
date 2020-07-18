@@ -23,3 +23,4 @@ OpenCV lesson. code in python and c++
 20 Smoothing_BlurringImages.py : Smoothing and Blurring of Images with OpenCV  
 21 ImageGradients_EdgeDetection.py : three types of gradient methods or High-pass filters  
 22 CannyEdgeDetection.py       : Canny edge detection algorithm is 5 steps  
+23 ImagePyramids.py     : pyramid of multiple reduced image of original using 2 method gaussian, laplacian
