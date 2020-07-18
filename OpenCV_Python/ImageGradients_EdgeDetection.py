@@ -36,10 +36,13 @@ scharrY = np.uint8(np.abs(scharrY))
 
 scharrCombined = cv.bitwise_or(scharrX, scharrY)
 
-titles = [ 'Orig_Image', 'Laplacian','SobelX', 'SobelY', 'sobelCombined', 'scharrX', 'scharrY', 'scharrCombined']
-images = [ img, laplacianG, SobelX, SobelY, sobelCombined, scharrX, scharrY, scharrCombined]
+# canny edge detection
+canny = cv.Canny(img, 100, 200)
 
-for i in range(8):
+titles = [ 'Orig_Image', 'Laplacian','SobelX', 'SobelY', 'sobelCombined', 'scharrX', 'scharrY', 'scharrCombined', 'canny']
+images = [ img, laplacianG, SobelX, SobelY, sobelCombined, scharrX, scharrY, scharrCombined, canny]
+
+for i in range(9):
     plt.subplot(3, 3, i+1), plt.imshow(images[i], 'gray')
     plt.title(titles[i])
     plt.xticks([]), plt.yticks([])
