@@ -21,3 +21,4 @@ OpenCV lesson. code in python and c++
 18 MatplotlibWithOpencv_2.py   : use subplot to show many image in 1 window  
 19 MorphologicalTransformations.py : morphological operations like Erosion, Dilation, Opening, Closing etc  
 20 Smoothing_BlurringImages.py : Smoothing and Blurring of Images with OpenCV  
+21 ImageGradients_EdgeDetection.py: three types of gradient methods or High-pass filters  
