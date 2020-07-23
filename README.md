@@ -15,13 +15,15 @@ OpenCV lesson. code in python and c++
 12 Trackbar_bind_to_OpenCV_win.py   : Bitwise Operation in OpenCV  
 13 Trackbar_bind_to_OpenCV_win_2.py : Bitwise Operation in OpenCV  
 14 Object_Detection_Tracking_HSV.py : show How to do Object Detection and Object Tracking Using HSV Color Space.  
-15 ImageThresholding.py        : Image Thresholding is used for image segmentation.
-16 AdaptiveThresholding.py     : Image AdaptiveThresholding is used for regionwise image segmentation.
-17 MatplotlibWithOpencv.py     : matplotlib with opencv
-18 MatplotlibWithOpencv_2.py   : use subplot to show many image in 1 window  
+15 ImageThresholding.py        : Image Thresholding is used for image segmentation.  
+16 AdaptiveThresholding.py     : Image AdaptiveThresholding is used for regionwise image segmentation.  
+17 MatplotlibWithOpencv.py     : matplotlib with opencv  
+18 MatplotlibWithOpencv_2.py   : use subplot to show many image in 1 window   
 19 MorphologicalTransformations.py : morphological operations like Erosion, Dilation, Opening, Closing etc  
 20 Smoothing_BlurringImages.py : Smoothing and Blurring of Images with OpenCV  
 21 ImageGradients_EdgeDetection.py : three types of gradient methods or High-pass filters  
 22 CannyEdgeDetection.py : Canny edge detection algorithm is 5 steps  
 23 ImagePyramids.py      : pyramid of multiple reduced image of original using 2 method gaussian, laplacian  
-24 ImageBlending_using_Pyramids.py : blending 2 images using gaussian and laplacian method
+24 ImageBlending_using_Pyramids.py : blending 2 images using gaussian and laplacian method  
+22 CannyEdgeDetection.py       : Canny edge detection algorithm is 5 steps  
+23 ImagePyramids.py     : pyramid of multiple reduced image of original using 2 method gaussian, laplacian  
