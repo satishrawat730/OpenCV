@@ -27,3 +27,4 @@ OpenCV lesson. code in python and c++
 24 ImageBlending_using_Pyramids.py : blending 2 images using gaussian and laplacian method  
 22 CannyEdgeDetection.py       : Canny edge detection algorithm is 5 steps  
 23 ImagePyramids.py     : pyramid of multiple reduced image of original using 2 method gaussian, laplacian  
+24 Find_Draw_Contours.py : Find and Draw Contours in image using functions : cv2.findContours(), cv2.drawContours()  
