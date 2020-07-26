@@ -1,8 +1,5 @@
 *.exe
-/data
 /opencv-master
 *.zip
-*.jpg
-*.avi
-*.png
+
 *.bat
